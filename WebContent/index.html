@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Book City</title>
+<link type="text/css" rel="stylesheet" href="static/css/style.css" >
+</head>
+<body>
+	
+	<div id="header">
+			<img class="logo_img" alt="" src="static/img/logo.png" >
+			<span class="wel_word">Online Bookstore</span>
+			<div>
+				<a href="pages/user/login.html">Login</a> | 
+				<a href="pages/user/regist.html">Register</a> | <!-- &nbsp;&nbsp; -->
+				<a href="pages/cart/cart.html">Shopping Card</a> | 
+				<a href="pages/manager/manager.html">Backstage Management</a> |
+			</div>
+	</div>
+	<div id="main">
+		<div id="book">
+			<div class="book_cond">
+				<form action="" method="get">
+					Price : <input id="min" type="text" name="min" value=""> $ - 
+						<input id="max" type="text" name="max" value=""> $ 
+						<input type="submit" value="Search" />
+				</form>
+			</div>
+			<div style="text-align: center">
+				<span>You have 3 items in your cart</span>
+				<div>
+					You have just added a brief history of time to your cart
+				</div>
+			</div>
+			<div class="b_list">
+				<div class="img_div">
+					<img class="book_img" alt="" src="static/img/The Secret History.webp" />
+				</div>
+				<div class="book_info">
+					<div class="book_name">
+						<span class="sp1">Book Title:</span>
+						<span class="sp2">The Secret History</span>
+					</div>
+					<div class="book_author">
+						<span class="sp1">Author:</span>
+						<span class="sp2">Donna Tartt</span>
+					</div>
+					<div class="book_price">
+						<span class="sp1">Price:</span>
+						<span class="sp2">$30.00</span>
+					</div>
+					<div class="book_sales">
+						<span class="sp1">Sales:</span>
+						<span class="sp2">230</span>
+					</div>
+					<div class="book_amount">
+						<span class="sp1">Stock:</span>
+						<span class="sp2">1000</span>
+					</div>
+					<div class="book_add">
+						<button>Add to the cart</button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="b_list">
+				<div class="img_div">
+					<img class="book_img" alt="" src="static/img/Harry Potter.jpg" />
+				</div>
+				<div class="book_info">
+					<div class="book_name">
+						<span class="sp1">Book Title:</span>
+						<span class="sp2">Harry Potter</span>
+					</div>
+					<div class="book_author">
+						<span class="sp1">Author:</span>
+						<span class="sp2">Daniel Radcliffe</span>
+					</div>
+					<div class="book_price">
+						<span class="sp1">Price:</span>
+						<span class="sp2">$14.97</span>
+					</div>
+					<div class="book_sales">
+						<span class="sp1">Sales:</span>
+						<span class="sp2">230</span>
+					</div>
+					<div class="book_amount">
+						<span class="sp1">Stock:</span>
+						<span class="sp2">1000</span>
+					</div>
+					<div class="book_add">
+						<button>Add to the cart</button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="b_list">
+				<div class="img_div">
+					<img class="book_img" alt="" src="static/img/Atomic Habits.jpg" />
+				</div>
+				<div class="book_info">
+					<div class="book_name">
+						<span class="sp1">Book Title:</span>
+						<span class="sp2">Atomic Habits</span>
+					</div>
+					<div class="book_author">
+						<span class="sp1">Author:</span>
+						<span class="sp2">James Clear</span>
+					</div>
+					<div class="book_price">
+						<span class="sp1">Price:</span>
+						<span class="sp2">$22.99</span>
+					</div>
+					<div class="book_sales">
+						<span class="sp1">Sales</span>
+						<span class="sp2">230</span>
+					</div>
+					<div class="book_amount">
+						<span class="sp1">Stock:</span>
+						<span class="sp2">1000</span>
+					</div>
+					<div class="book_add">
+						<button>Add to the cart</button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="b_list">
+				<div class="img_div">
+					<img class="book_img" alt="" src="static/img/Spy.jpg" />
+				</div>
+				<div class="book_info">
+					<div class="book_name">
+						<span class="sp1">Book Title:</span>
+						<span class="sp2">Spy x Family</span>
+					</div>
+					<div class="book_author">
+						<span class="sp1">Author:</span>
+						<span class="sp2">Tatsuya Endo</span>
+					</div>
+					<div class="book_price">
+						<span class="sp1">Price:</span>
+						<span class="sp2">$9.99</span>
+					</div>
+					<div class="book_sales">
+						<span class="sp1">Sales:</span>
+						<span class="sp2">230</span>
+					</div>
+					<div class="book_amount">
+						<span class="sp1">Stock:</span>
+						<span class="sp2">1000</span>
+					</div>
+					<div class="book_add">
+						<button>Add to the cart</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="page_nav">
+		<a href="#">Home Page</a>
+		<a href="#">Back</a>
+		<a href="#">3</a>
+		【4】
+		<a href="#">5</a>
+		<a href="#">Next</a>
+		<a href="#">Last Page</a>
+		A total of 10 pages ，30 records On the<input value="4" name="pn" id="pn_input"/>Page
+		<input type="button" value="OK">
+		</div>
+	
+	</div>
+	
+	<div id="bottom">
+		<span>
+			Book City.Copyright &copy;2022
+		</span>
+	</div>
+</body>
+</html>
